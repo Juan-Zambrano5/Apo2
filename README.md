@@ -74,7 +74,7 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 
 * **Juan Zambrano**
 * **Danna Lagos**
-* **Yeni** 
+* **Yeni Vane** 
 
 
 ## Licencia
