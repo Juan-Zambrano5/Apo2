@@ -72,7 +72,9 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 
 ## Autores
 
-* **Gustavo Sánchez** 
+* **Juan Zambrano**
+* **Danna Lagos**
+* **Yeni** 
 
 
 ## Licencia
