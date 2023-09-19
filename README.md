@@ -1,7 +1,7 @@
 # Apo2
 ![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png)
 
-# Apo2 funciones
+# Apo2 Funciones
 
 Un párrafo de la descripción del proyecto va aquí.
 
