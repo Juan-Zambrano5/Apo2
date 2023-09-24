@@ -23,7 +23,7 @@ Importar la libreria JOptionPane.
 
 
 ```
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane
 ```
 
 Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
