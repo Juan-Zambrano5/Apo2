@@ -14,7 +14,9 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 Qué cosas necesitas para instalar el software y cómo instalarlas
 
 ```
-Give examples
+Visual Studio Code: https://code.visualstudio.com/
+Eclipse: https://www.eclipse.org/downloads/
+Git bash: https://git-scm.com/downloads
 ```
 
 ### Instalación
