@@ -3,7 +3,7 @@
 
 # Apo2 Funciones
 
-Se creo en eclipse un menu con distintas opciones como converso de moneda, promedio de notas, clasificacion de quipos y par e impar.
+Se creo en eclipse un menu con distintas opciones como converso de moneda, promedio de notas, clasificacion de quipos y par e impar. 
 
 ## Empezando
 
