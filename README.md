@@ -11,28 +11,19 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 
 ### Requisitos previos
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
+Instalar Eclipse en tu computador
 
 ```
-Visual Studio Code: https://code.visualstudio.com/
-Eclipse: https://www.eclipse.org/downloads/
-Git bash: https://git-scm.com/downloads
+Link de instalación de Eclipse: https://www.eclipse.org/downloads/
 ```
 
 ### Instalación
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
+Importar la libreria JOptionPane.
 
-Di cuál será el paso.
-
-```
-Give the example
-```
-
-Y repetir
 
 ```
-until finished
+import javax.swing.JOptionPane;
 ```
 
 Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
