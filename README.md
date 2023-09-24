@@ -38,9 +38,9 @@ Explicar cómo ejecutar las pruebas automatizadas para este sistema.
 Explique qué prueban estas pruebas y por qué.
 
 ```
-este proyecto nos ayuda a solucinar operaciones primarias
-como resta, suma, multiicacion y division
-ingresando nuemeros por teclado 
+Este proyecto nos ayuda a solucinar operaciones primarias
+Como resta, suma, multiicacion y division
+Ingresando numeros por teclado 
 ```
 
 ### Y pruebas de estilo de codificación.
