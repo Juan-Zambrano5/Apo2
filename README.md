@@ -52,6 +52,7 @@ Explique qué prueban estas pruebas y por qué.
 package proyecto;
 
 import javax.swing.JOptionPane;
+//se importa una nueva libreria que permite ingresar datos de manera manual
 
 public class proyecto3 {
 	public static void main(String[]args) {
