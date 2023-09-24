@@ -49,7 +49,41 @@ Ingresando numeros por teclado
 Explique qué prueban estas pruebas y por qué.
 
 ```
-Give an example
+package proyecto;
+
+import javax.swing.JOptionPane;
+
+public class proyecto3 {
+	public static void main(String[]args) {
+		JOptionPane.showMessageDialog(null,"Digite un valor\n");
+		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
+		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
+		int t=suma(x,y);
+		int z=resta(x,y);
+		int m=multiplicacion(x,y);
+		int d=division(x,y);
+		JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
+		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
+		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
+		JOptionPane.showMessageDialog(null,"El total de la division es: " + d,"division",1);
+	}
+		public static int suma(int a,int b) {
+			return a+b;
+			
+		}
+		
+		public static int resta(int x,int y) {
+			return x-y;
+			
+			
+		}
+		public static int multiplicacion(int a,int b) {
+			return a*b;
+	}
+		public static int division(int a,int b) {
+			return a/b;
+}
+}
 ```
 
 ## Despliegue (Deployment)
