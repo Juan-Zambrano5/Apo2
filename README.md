@@ -78,21 +78,21 @@ public class proyecto3 {
 	}
 		public static int suma(int a,int b) {
 			return a+b;
-// esto permite hacer la operacion y llamar en los parametos para pder generar la suma 
+// esto permite hacer la operacion y llamar en los parametos para poder generar la suma 
 		}
 		
 		public static int resta(int x,int y) {
 			return x-y;
-// esto permite hacer la operacion y llamar en los parametos para pder generar la resta
+// esto permite hacer la operacion y llamar en los parametos para poder generar la resta
 			
 		}
 		public static int multiplicacion(int a,int b) {
 			return a*b;
-// esto permite hacer la operacion y llamar en los parametos para pder generar la multiplicacion 
+// esto permite hacer la operacion y llamar en los parametos para poder generar la multiplicacion 
 	}
 		public static int division(int a,int b) {
 			return a/b;
-// esto permite hacer la operacion y llamar en los parametos para pder generar la division
+// esto permite hacer la operacion y llamar en los parametos para poder generar la division
 }
 }
 ```
