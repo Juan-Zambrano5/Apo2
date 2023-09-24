@@ -17,6 +17,8 @@ Instalar Eclipse en tu computador
 Link de instalación de Eclipse: https://www.eclipse.org/downloads/
 ```
 
+//tonterita
+
 ### Instalación
 
 Importar la libreria JOptionPane.
