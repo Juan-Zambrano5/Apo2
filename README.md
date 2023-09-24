@@ -57,10 +57,13 @@ import javax.swing.JOptionPane;
 public class proyecto3 {
 	public static void main(String[]args) {
 		JOptionPane.showMessageDialog(null,"Digite un valor\n");
-//se pide al usuario que
+//Se muestra un mensaje de lo que hara el programa
 		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
+//Se pide al usuario que ingrese un valor entero
 		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
+//Se pide al usuario que igrese el segundo valor entero
 		int t=suma(x,y);
+//Se define t como suma y esta misma como un valor entero
 		int z=resta(x,y);
 		int m=multiplicacion(x,y);
 		int d=division(x,y);
