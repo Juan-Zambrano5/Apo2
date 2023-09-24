@@ -65,28 +65,34 @@ public class proyecto3 {
 		int t=suma(x,y);
 //Se define t como suma y esta misma como un valor entero
 		int z=resta(x,y);
+//define z como resta y esta misma como un valor entero
 		int m=multiplicacion(x,y);
+//define m como multiplicacion y esta misma como un valor entero
 		int d=division(x,y);
+//define m como division y esta misma como un valor entero
 		JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
-		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
+		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);
 		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
 		JOptionPane.showMessageDialog(null,"El total de la division es: " + d,"division",1);
+//Se muestra un mensaje de lo que hara el programa
 	}
 		public static int suma(int a,int b) {
 			return a+b;
-			
+// esto permite hacer la operacion y llamar en los parametos para pder generar la suma 
 		}
 		
 		public static int resta(int x,int y) {
 			return x-y;
-			
+// esto permite hacer la operacion y llamar en los parametos para pder generar la resta
 			
 		}
 		public static int multiplicacion(int a,int b) {
 			return a*b;
+// esto permite hacer la operacion y llamar en los parametos para pder generar la multiplicacion 
 	}
 		public static int division(int a,int b) {
 			return a/b;
+// esto permite hacer la operacion y llamar en los parametos para pder generar la division
 }
 }
 ```
