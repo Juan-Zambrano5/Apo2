@@ -1,7 +1,7 @@
 # Apo2
 ![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png)
 
-# Apo2 Funciones
+# Apo2 Funciones.
 
 Se creo en eclipse un programa que le pide al usuario ingresar dos numero enteros para con estos valores multiplicar, resta, dividir y sumar.  
 
