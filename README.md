@@ -57,6 +57,7 @@ import javax.swing.JOptionPane;
 public class proyecto3 {
 	public static void main(String[]args) {
 		JOptionPane.showMessageDialog(null,"Digite un valor\n");
+//se pide al usuario que
 		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
 		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
 		int t=suma(x,y);
