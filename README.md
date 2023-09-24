@@ -3,7 +3,7 @@
 
 # Apo2 Funciones
 
-se creo en eclipse un programa que le pide al usuario ingresar dos numero enteros para con estos valores multiplicar, restar, dividir y sumar.  
+Se creo en eclipse un programa que le pide al usuario ingresar dos numero enteros para con estos valores multiplicar, restar, dividir y sumar.  
 
 ## Empezando
 
