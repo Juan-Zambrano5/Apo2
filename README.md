@@ -40,7 +40,7 @@ Explique qué prueban estas pruebas y por qué.
 ```
 Este proyecto nos ayuda a solucinar operaciones primarias
 Como resta, suma, multiicacion y division
-Ingresando numeros por teclado holiiii
+Ingresando numeros por teclado
 ```
 
 ### Y pruebas de estilo de codificación.
