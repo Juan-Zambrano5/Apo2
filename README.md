@@ -38,7 +38,9 @@ Explicar cómo ejecutar las pruebas automatizadas para este sistema.
 Explique qué prueban estas pruebas y por qué.
 
 ```
-Give an example tonteita
+este proyecto nos ayuda a solucinar operaciones primarias
+como resta, suma, multiicacion y division
+ingresando nuemeros por teclado 
 ```
 
 ### Y pruebas de estilo de codificación.
