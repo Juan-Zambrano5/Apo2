@@ -11,7 +11,7 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 
 ### Requisitos previos
 
-Instalar Eclipse en tu computado
+Instalar Eclipse en tu computador
 
 ```
 Link de instalación de Eclipse: https://www.eclipse.org/downloads/
