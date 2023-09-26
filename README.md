@@ -7,7 +7,7 @@ Se creo en eclipse un programa que le pide al usuario ingresar dos numero entero
 
 ## Empezando
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
 ### Requisitos previos
 
@@ -17,7 +17,6 @@ Instalar Eclipse en tu computador
 Link de instalación de Eclipse: https://www.eclipse.org/downloads/
 ```
 
-
 ### Instalación
 
 Importar la libreria JOptionPane.
@@ -26,8 +25,6 @@ Importar la libreria JOptionPane.
 ```
 import javax.swing.JOptionPane es para que funcione JOptionPane 
 ```
-
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
 
 ## Ejecutando las pruebas
 
@@ -44,9 +41,6 @@ Ingresando numeros por teclado
 ```
 
 ### Y pruebas de estilo de codificación.
-
-
-Explique qué prueban estas pruebas y por qué.
 
 ```
 package proyecto;
