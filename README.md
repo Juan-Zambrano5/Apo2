@@ -46,7 +46,7 @@ Ingresando numeros por teclado
 package proyecto;
 
 import javax.swing.JOptionPane;
-//se importa una nueva libreria que permite ingresar datos de manera manual
+//Se importa una nueva libreria que permite ingresar datos de manera manual
 
 public class proyecto3 {
 	public static void main(String[]args) {
@@ -59,11 +59,11 @@ public class proyecto3 {
 		int t=suma(x,y);
 //Se define t como suma y esta misma como un valor entero
 		int z=resta(x,y);
-//define z como resta y esta misma como un valor entero
+//Define z como resta y esta misma como un valor entero
 		int m=multiplicacion(x,y);
-//define m como multiplicacion y esta misma como un valor entero
+//Define m como multiplicacion y esta misma como un valor entero
 		int d=division(x,y);
-//define m como division y esta misma como un valor entero
+//Define m como division y esta misma como un valor entero
 		JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);
 		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
@@ -72,12 +72,12 @@ public class proyecto3 {
 	}
 		public static int suma(int a,int b) {
 			return a+b;
-// esto permite hacer la operacion y llamar en los parametos para poder generar la suma 
+//Esto permite hacer la operacion y llamar en los parametos para poder generar la suma 
 		}
 		
 		public static int resta(int x,int y) {
 			return x-y;
-// esto permite hacer la operacion y llamar en los parametos para poder generar la resta
+//Esto permite hacer la operacion y llamar en los parametos para poder generar la resta
 			
 		}
 		public static int multiplicacion(int a,int b) {
