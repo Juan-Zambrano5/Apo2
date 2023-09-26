@@ -23,16 +23,16 @@ Importar la libreria JOptionPane.
 
 
 ```
-import javax.swing.JOptionPane es para que funcione JOptionPane 
+import javax.swing.JOptionPane es para que funcione JOptionPane.
 ```
 
 ## Ejecutando las pruebas
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
+```
+Para ejecutar las pruebas, debemos darle control+f11 para iniciar la aplicación.
+```
 
 ### Dividir en pruebas de principio a fin
-
-Explique qué prueban estas pruebas y por qué.
 
 ```
 Este proyecto nos ayuda a solucinar operaciones primarias
@@ -118,6 +118,7 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener más detalles.
 
 ## Expresiones de gratitud (Acknowledgments)
+
 
 * Un consejo para cualquiera cuyo código se haya utilizado
 * Inspiración
