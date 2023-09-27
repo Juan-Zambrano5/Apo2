@@ -82,11 +82,11 @@ public class proyecto3 {
 		}
 		public static int multiplicacion(int a,int b) {
 			return a*b;
-// esto permite hacer la operacion y llamar en los parametos para poder generar la multiplicacion 
+//Esto permite hacer la operacion y llamar en los parametos para poder generar la multiplicacion 
 	}
 		public static int division(int a,int b) {
 			return a/b;
-// esto permite hacer la operacion y llamar en los parametos para poder generar la division
+//Esto permite hacer la operacion y llamar en los parametos para poder generar la division
 }
 }
 ```
