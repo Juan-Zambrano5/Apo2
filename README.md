@@ -14,7 +14,7 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 Instalar Eclipse en tu computador
 
 ```
-Link de instalación de Eclipse: https://www.eclipse.org/downloads/
+Link de instalación de Eclipse https://www.eclipse.org/downloads/
 ```
 
 ### Instalación
