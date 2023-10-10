@@ -23,7 +23,7 @@ Importar la libreria JOptionPane.
 
 
 ```
-import javax.swing.JOptionPane es para que funcione JOptionPane.
+import javax.swing.JOptionPane es para que funcione JOptionPane
 ```
 
 ## Ejecutando las pruebas
