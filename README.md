@@ -7,7 +7,7 @@ Se creo en eclipse un programa que le pide al usuario ingresar dos numero entero
 
 ## Empezando
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
+Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba
 
 ### Requisitos previos
 
