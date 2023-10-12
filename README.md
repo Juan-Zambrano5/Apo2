@@ -34,13 +34,13 @@ Para ejecutar las pruebas, debemos darle control+f11 para iniciar la aplicación
 
 ### Dividir en pruebas de principio a fin
 
-```
-Este proyecto nos ayuda a solucinar operaciones primarias
+
+// Este proyecto nos ayuda a solucinar operaciones primarias
 Como resta, suma, multiicacion y division
 Ingresando numeros por teclado
 
 ```
-// se agrego el primer proyecto de java 
+// Se agrego el primer proyecto de java 
 
 Package proyecto;
 
@@ -49,6 +49,7 @@ import javax.swing.JOptionPane;
 public class proyecto3 {
 	public static void main(String[]args) {
 
+// Con el siguiente paso podemos establecer el proceso de que el usuario ingrese los numeros entreros que desea operar 
 
 JOptionPane.showMessageDialog(null,"Digite un valor\n");
 		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
