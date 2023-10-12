@@ -87,10 +87,47 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		public static int multiplicacion(int a,int b) {
 			return a*b;
 	}
+// Se realiza la operacion de los numeros ingresados por el usuario para hacer la division 
 		public static int division(int a,int b) {
 			return a/b;
 }
 }
+
+
+
+// segundo proyecto
+
+// se importa la librería de scanner 
+package ejercicio;
+import java.util.Scanner;
+
+// Dentro de la public class se crea el public static void main
+
+public class pesosADolares {
+	public static void main(String[]args).{
+
+// Se muestra en pantalla el mensaje ingrese el valor en pesos
+
+System.out.print("ingrese el valor de pesos: ");
+
+// Se establece la variable dolares como un float, inicializa desde 0 y se le pide el valor al usuario
+
+float dolares=0;
+		float pesos=sc.nextFloat();
+
+// Se establece la variable dolares, siendo la division de pesos entre 4150, es decir su conversion
+
+dolares=(pesos/4150);
+
+//Se muestra en pantalla la cantidad de pesos en dolares
+
+System.out.print("la cantidad en dolares es: "+dolares);
+}
+}
+
+
+
+
 ```
 
 ### Y pruebas de estilo de codificación.
