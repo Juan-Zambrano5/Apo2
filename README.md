@@ -110,6 +110,11 @@ public class pesosADolares {
 
 System.out.print("ingrese el valor de pesos: ");
 
+// Se establece la variable dolares como un float, inicializa desde 0 y se le pide el valor al usuario
+
+float dolares=0;
+		float pesos=sc.nextFloat();
+
 
 ```
 
