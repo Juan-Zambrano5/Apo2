@@ -3,44 +3,7 @@
 
 # Apo2 Funciones.
 
-Se creo en eclipse los siguientes programas el primero es hacer de las operaciones con dos numeros enteros lo que es multiplicar, resta, dividir y sumar.  
-
-se pega el primer proyecto.
-package proyecto;
-
-import javax.swing.JOptionPane;
-
-public class proyecto3 {
-	public static void main(String[]args) {
-		JOptionPane.showMessageDialog(null,"Digite un valor\n");
-		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
-		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
-		int t=suma(x,y);
-		int z=resta(x,y);
-		int m=multiplicacion(x,y);
-		int d=division(x,y);
-		JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
-		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
-		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
-		JOptionPane.showMessageDialog(null,"El total de la division es: " + d,"division",1);
-	}
-		public static int suma(int a,int b) {
-			return a+b;
-			
-		}
-		
-		public static int resta(int x,int y) {
-			return x-y;
-			
-			
-		}
-		public static int multiplicacion(int a,int b) {
-			return a*b;
-	}
-		public static int division(int a,int b) {
-			return a/b;
-}
-}
+Se creo en eclipse los trees proyectos siguientes 
 
 ## Empezando
 
@@ -75,11 +38,57 @@ Para ejecutar las pruebas, debemos darle control+f11 para iniciar la aplicación
 Este proyecto nos ayuda a solucinar operaciones primarias
 Como resta, suma, multiicacion y division
 Ingresando numeros por teclado
+
 ```
+// se agrego el primer proyecto de java 
+
+Package proyecto;
+
+import javax.swing.JOptionPane;
+
+public class proyecto3 {
+	public static void main(String[]args) {
+
+
+JOptionPane.showMessageDialog(null,"Digite un valor\n");
+		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
+		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
+
+
+		int t=suma(x,y);
+		int z=resta(x,y);
+		int m=multiplicacion(x,y);
+		int d=division(x,y);
+		
+
+
+
+JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
+		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
+		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
+		JOptionPane.showMessageDialog(null,"El total de la division es: " + d,"division",1);
+	}
+		public static int suma(int a,int b) {
+			return a+b;
+			
+		}
+		
+		public static int resta(int x,int y) {
+			return x-y;
+			
+			
+		}
+		public static int multiplicacion(int a,int b) {
+			return a*b;
+	}
+		public static int division(int a,int b) {
+			return a/b;
+}
+}
 
 ### Y pruebas de estilo de codificación.
 
-```
+``` 
 package proyecto;
 
 import javax.swing.JOptionPane;
