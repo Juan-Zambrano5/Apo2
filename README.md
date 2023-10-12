@@ -83,6 +83,7 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 			
 			
 		}
+// Se realiza la operacion de los numeros ingresados por el usuario que es la multiplicacion
 		public static int multiplicacion(int a,int b) {
 			return a*b;
 	}
