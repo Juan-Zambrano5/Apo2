@@ -68,6 +68,8 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
 		JOptionPane.showMessageDialog(null,"El total de la multiplicacion es: " + m,"multiplicacion",1);
 		JOptionPane.showMessageDialog(null,"El total de la division es: " + d,"division",1);
+// Se llama a cada una de las operaciones dando su total 
+
 	}
 		public static int suma(int a,int b) {
 			return a+b;
@@ -90,7 +92,6 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 
 ### Y pruebas de estilo de codificación.
 
-``` 
 ``` 
 package proyecto;
 
@@ -138,6 +139,7 @@ public class proyecto3 {
 //Esto permite hacer la operacion y llamar en los parametos para poder generar la division
 }
 }
+
 ```
 
 ## Despliegue (Deployment)
