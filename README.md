@@ -115,6 +115,11 @@ System.out.print("ingrese el valor de pesos: ");
 float dolares=0;
 		float pesos=sc.nextFloat();
 
+// Se establece la variable dolares, siendo la division de pesos entre 4150, es decir su conversion
+
+dolares=(pesos/4150);
+
+
 
 ```
 
