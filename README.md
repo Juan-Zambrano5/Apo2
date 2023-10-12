@@ -71,16 +71,19 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 // Se llama a cada una de las operaciones dando su total 
 
 	}
+
+// Se realiza la operacion de los numeros ingresados por el usuario que es suma
 		public static int suma(int a,int b) {
 			return a+b;
 			
 		}
-		
+// Se realiza la operacion de los numeros ingresados por el usuario que es resta
 		public static int resta(int x,int y) {
 			return x-y;
 			
 			
 		}
+// Se realiza la operacion de los numeros ingresados por el usuario que es la multiplicacion
 		public static int multiplicacion(int a,int b) {
 			return a*b;
 	}
