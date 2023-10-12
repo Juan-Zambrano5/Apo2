@@ -104,8 +104,9 @@ import java.util.Scanner;
 // Dentro de la public class se crea el public static void main
 
 public class pesosADolares {
-	public static void main(String[]args){
-		
+	public static void main(String[]args).{
+
+
 ```
 
 ### Y pruebas de estilo de codificación.
