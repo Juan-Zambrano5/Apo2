@@ -119,6 +119,13 @@ float dolares=0;
 
 dolares=(pesos/4150);
 
+//Se muestra en pantalla la cantidad de pesos en dolares
+
+System.out.print("la cantidad en dolares es: "+dolares);
+}
+}
+
+
 
 
 ```
