@@ -101,6 +101,11 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 package ejercicio;
 import java.util.Scanner;
 
+// Dentro de la public class se crea el public static void main
+
+public class pesosADolares {
+	public static void main(String[]args){
+		
 ```
 
 ### Y pruebas de estilo de codificación.
