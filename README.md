@@ -62,7 +62,7 @@ JOptionPane.showMessageDialog(null,"Digite un valor\n");
 		int d=division(x,y);
 		
 
-
+// ShowMessageDialog se lo utiliza para poder enviar un mensaje al usuario 
 
 JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
