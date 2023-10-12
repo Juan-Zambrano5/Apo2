@@ -77,7 +77,7 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 			return a+b;
 			
 		}
-		
+// Se realiza la operacion de los numeros ingresados por el usuario que es resta
 		public static int resta(int x,int y) {
 			return x-y;
 			
