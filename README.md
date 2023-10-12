@@ -55,14 +55,14 @@ JOptionPane.showMessageDialog(null,"Digite un valor\n");
 		int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero"));
 		int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero"));
 
-
-		int t=suma(x,y);
+// Se define suma, resta, multiplicacion y division como valores enteros
+		int t=suma (x,y)
 		int z=resta(x,y);
 		int m=multiplicacion(x,y);
 		int d=division(x,y);
 		
 
-
+// ShowMessageDialog se lo utiliza para poder enviar un mensaje al usuario 
 
 JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		JOptionPane.showMessageDialog(null,"El total de la resta es: " + z,"resta",1);	
@@ -86,9 +86,11 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 			return a/b;
 }
 }
+```
 
 ### Y pruebas de estilo de codificación.
 
+``` 
 ``` 
 package proyecto;
 
