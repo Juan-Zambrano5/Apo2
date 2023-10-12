@@ -106,6 +106,10 @@ import java.util.Scanner;
 public class pesosADolares {
 	public static void main(String[]args).{
 
+// Se muestra en pantalla el mensaje ingrese el valor en pesos
+
+System.out.print("ingrese el valor de pesos: ");
+
 
 ```
 
