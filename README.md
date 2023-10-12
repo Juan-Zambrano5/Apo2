@@ -87,10 +87,20 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 		public static int multiplicacion(int a,int b) {
 			return a*b;
 	}
+// Se realiza la operacion de los numeros ingresados por el usuario para hacer la division 
 		public static int division(int a,int b) {
 			return a/b;
 }
 }
+
+
+
+// segundo proyecto
+
+// se importa la librería de scanner 
+package ejercicio;
+import java.util.Scanner;
+
 ```
 
 ### Y pruebas de estilo de codificación.
