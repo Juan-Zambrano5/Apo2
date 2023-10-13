@@ -150,6 +150,12 @@ public class Asignaturas {
 
      double suma=0;
 		for(int i=0; i<totalNotas;i++) {
+			// El usuario por teclado Ingresa las notas 
+
+         Ingresa tus  notas: \n"));
+		suma=suma+notas[i];
+		}
+		
 
 
 ```
