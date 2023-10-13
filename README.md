@@ -3,7 +3,7 @@
 
 # Apo2 Funciones.
 
-Se creo en eclipse los trees proyectos siguientes 
+Se crearon proyectos para dar soluciones a diferentes problemas de la vida contidiana en distintos ambitos. 
 
 ## Empezando
 
@@ -130,7 +130,7 @@ System.out.print("la cantidad en dolares es: "+dolares);
 
 ```
 ## Cuarto proyecto en Java
-
+// Este programa permite obtener el promedio de distintas notas e identificar la nota minima y maxima.
 ```
 // primero se importa el JOptionPane con la correspondiente clase 
 
@@ -252,21 +252,13 @@ public class proyecto3 {
 }
 
 ```
-
-## Despliegue (Deployment)
-
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
-
-
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+Eclipse IDE for Java Script
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+Version de Eclipse IDE for Java Developers-2023-06
 
 ## Autores
 
