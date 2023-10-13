@@ -155,7 +155,15 @@ public class Asignaturas {
          Ingresa tus  notas: \n"));
 		suma=suma+notas[i];
 		}
-		
+		// Se establece en el programa la nota máxima 
+
+        double notaMax=notas[0];
+		for(int i=0; i<notas.length;i++) {
+			if (notas[i] > notaMax) {
+	                notaMax = notas[i];
+			}
+		}
+		JOptionPane.showMessageDialog(null, "Tu nota máxima es: "+notaMax,"Max", 1);
 
 
 ```
