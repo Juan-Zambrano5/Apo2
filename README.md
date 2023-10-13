@@ -164,6 +164,16 @@ public class Asignaturas {
 			}
 		}
 		JOptionPane.showMessageDialog(null, "Tu nota máxima es: "+notaMax,"Max", 1);
+		// Definimos en el programa la nota mínima 
+
+		double notaMin=notas[0];
+		for(int i=0; i<notas.length;i++) {
+			if (notas[i] < notaMin) {
+				notaMin = notas[i];
+			}
+		}
+
+		JOptionPane.showMessageDialog(null, "Tu nota mínima es: "+notaMin,"Min", 0);
 
 
 ```
