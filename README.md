@@ -174,11 +174,16 @@ public class Asignaturas {
 		}
 
 		JOptionPane.showMessageDialog(null, "Tu nota mínima es: "+notaMin,"Min", 0);
-		
+
 		// Con los datos registrados se realiza la suma y la división total de notas 
 
         double promedio;
 		promedio=suma/totalNotas;
+		// Se agrega la restricción con if para el mensaje de respronaste el promedio con menor de 0
+
+        if (promedio<=29)
+			JOptionPane.showMessageDialog(null, "Repobraste, tu promedio es: "+promedio,"Promedio", 0);
+		else
 
 
 ```
