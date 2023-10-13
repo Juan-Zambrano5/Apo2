@@ -137,6 +137,12 @@ System.out.print("la cantidad en dolares es: "+dolares);
 Import javax.swing.JOptionPane;
 
 public class Asignaturas {
+	// Se define la variable notas brindando la opción de que el usuario ingresé la cantidad de notas requerida 
+
+	public static void main(String[] args) {
+	Auto-generated method stub
+		int totalNotas= 
+    Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa el número de notas: "));
 
 
 ```
