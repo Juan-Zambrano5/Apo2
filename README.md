@@ -3,7 +3,7 @@
 
 # Apo2 Funciones.
 
-Se creo en eclipse los trees proyectos siguientes 
+Se crearon proyectos para dar soluciones a diferentes problemas de la vida contidiana en distintos ambitos. 
 
 ## Empezando
 
@@ -129,6 +129,77 @@ System.out.print("la cantidad en dolares es: "+dolares);
 
 
 ```
+## Cuarto proyecto en Java
+// Este programa permite obtener el promedio de distintas notas e identificar la nota minima y maxima.
+```
+// primero se importa el JOptionPane con la correspondiente clase 
+
+Import javax.swing.JOptionPane;
+
+public class Asignaturas {
+	// Se define la variable notas brindando la opción de que el usuario ingresé la cantidad de notas requerida 
+
+	public static void main(String[] args) {
+
+	//Auto-generated method stub
+		int totalNotas= Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa el número de notas: "));
+	// Definimos las contenedoras en el proceso para hacer el promedio de notas
+
+    double notas [] = new double [totalNotas];
+	// El primer paso es realizar la suma de las notas ingresadas 
+
+     double suma=0;
+		for(int i=0; i<totalNotas;i++) {
+
+			// El usuario por teclado Ingresa las notas 
+        notas[i]=Double.parseDouble(JOptionPane.showInputDialog(null, "Ingresa tus  notas: \n"));
+		suma=suma+notas[i];
+
+		}
+
+		// Se establece en el programa la nota máxima 
+
+        double notaMax=notas[0];
+		for(int i=0; i<notas.length;i++) {
+			if (notas[i] > notaMax) {
+	                notaMax = notas[i];
+			}
+		}
+
+		JOptionPane.showMessageDialog(null, "Tu nota máxima es: "+notaMax,"Max", 1);
+
+		// Definimos en el programa la nota mínima 
+
+		double notaMin=notas[0];
+		for(int i=0; i<notas.length;i++) {
+			if (notas[i] < notaMin) {
+				notaMin = notas[i];
+			}
+		}
+
+		JOptionPane.showMessageDialog(null, "Tu nota mínima es: "+notaMin,"Min", 0);
+
+		// Con los datos registrados se realiza la suma y la división total de notas 
+
+        double promedio;
+		promedio=suma/totalNotas;
+
+		// Se agrega la restricción con if para el mensaje de respronaste el promedio con menor de 0
+
+        if (promedio<=29)
+			JOptionPane.showMessageDialog(null, "Repobraste, tu promedio es: "+promedio,"Promedio", 0);
+			
+		else
+		// Con esta opción se entiende los parámetros de la aprobación de la materia 
+
+        JOptionPane.showMessageDialog(null, "Aprobaste, tu promedio es: "+promedio,"Promedio", 1);		
+		
+	}
+
+}
+
+
+```
 
 ### Y pruebas de estilo de codificación.
 
@@ -181,21 +252,13 @@ public class proyecto3 {
 }
 
 ```
-
-## Despliegue (Deployment)
-
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
-
-
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+Eclipse IDE for Java Script
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+Version de Eclipse IDE for Java Developers-2023-06
 
 ## Autores
 
