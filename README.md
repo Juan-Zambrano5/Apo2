@@ -184,6 +184,13 @@ public class Asignaturas {
         if (promedio<=29)
 			JOptionPane.showMessageDialog(null, "Repobraste, tu promedio es: "+promedio,"Promedio", 0);
 		else
+		// Con esta opción se entiende los parámetros de la aprobación de la materia 
+
+        JOptionPane.showMessageDialog(null, "Aprobaste, tu promedio es: "+promedio,"Promedio", 1);		
+		
+	}
+
+}
 
 
 ```
