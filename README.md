@@ -129,6 +129,17 @@ System.out.print("la cantidad en dolares es: "+dolares);
 
 
 ```
+## Cuarto proyecto en Java
+
+```
+// primero se importa el JOptionPane con la correspondiente clase 
+
+Import javax.swing.JOptionPane;
+
+public class Asignaturas {
+
+
+```
 
 ### Y pruebas de estilo de codificación.
 
