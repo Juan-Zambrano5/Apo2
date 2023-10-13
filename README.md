@@ -174,6 +174,11 @@ public class Asignaturas {
 		}
 
 		JOptionPane.showMessageDialog(null, "Tu nota mínima es: "+notaMin,"Min", 0);
+		
+		// Con los datos registrados se realiza la suma y la división total de notas 
+
+        double promedio;
+		promedio=suma/totalNotas;
 
 
 ```
