@@ -143,6 +143,9 @@ public class Asignaturas {
 	Auto-generated method stub
 		int totalNotas= 
     Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa el número de notas: "));
+	// Definimos el proceso para hacer el promedio de notas
+
+    double notas [] = new double [totalNotas];
 
 
 ```
