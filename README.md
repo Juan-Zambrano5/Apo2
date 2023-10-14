@@ -34,8 +34,8 @@ Para ejecutar las pruebas, debemos darle control+f11 para iniciar la aplicación
 
 ### Dividir en pruebas de principio a fin
 
-
-// Este proyecto nos ayuda a solucinar operaciones primarias
+```
+Este proyecto nos ayuda a solucinar operaciones primarias
 Como resta, suma, multiicacion y division
 Ingresando numeros por teclado
 
