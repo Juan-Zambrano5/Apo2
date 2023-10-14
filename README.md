@@ -132,6 +132,8 @@ package clase;
 import javax.swing.JOptionPane;
 
 public class jhgjhgjhg {
+	public static void main(String[]args) {
+	} 
 
 }
 
