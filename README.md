@@ -142,7 +142,8 @@ public class promedio {
 		Array [1] = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese un numero"));
 		JOptionPane.showMessageDialog(null, "Ingresa una nota");
 		Array [2] = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese un numero"));
-		
+		//definimos la varibale suma como un double.
+		double suma;
 	} 
 
 }
