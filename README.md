@@ -148,6 +148,8 @@ public class promedio {
 		double promedio;
 		// establecemos suma como array0+array1+array2.
 		suma = Array[0]+Array[1]+Array[2];
+		// establecemos promedio como el resultado de suma divido en 3.
+		promedio = suma/3;
 
 	} 
 
