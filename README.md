@@ -150,6 +150,8 @@ public class promedio {
 		suma = Array[0]+Array[1]+Array[2];
 		// establecemos promedio como el resultado de suma divido en 3.
 		promedio = suma/3;
+		// con JOptionPane mostramos el resultado del promedio
+		JOptionPane.showMessageDialog(null, "El promedio es de: " + promedio);
 
 	} 
 
