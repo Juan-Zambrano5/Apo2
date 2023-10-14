@@ -134,7 +134,7 @@ import javax.swing.JOptionPane;
 public class promedio {
 	public static void main(String[]args) {
 		
-		// creamos la contenedora Array y pedimos las notas
+		// creamos la contenedora Array y pedimos las notas con JOptionPane
 		double [] Array = new double[3];
 		JOptionPane.showMessageDialog(null, "Ingresa una nota");
 		Array [0] = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese un numero"));
@@ -152,7 +152,7 @@ public class promedio {
 		promedio = suma/3;
 		// con JOptionPane mostramos el resultado del promedio
 		JOptionPane.showMessageDialog(null, "El promedio es de: " + promedio);
-
+	
 	} 
 
 }
