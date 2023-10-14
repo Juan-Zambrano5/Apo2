@@ -40,8 +40,9 @@ Como resta, suma, multiicacion y division
 Ingresando numeros por teclado
 
 ```
+```
 ## Primer proyecto de java 
-
+```
 Package proyecto;
 
 import javax.swing.JOptionPane;
@@ -94,9 +95,9 @@ JOptionPane.showMessageDialog(null,"El total de la suma es: " + t ,"suma",1);
 }
 
 
-
+```
 ## Segundo proyecto en Java
-
+```
 // se importa la librería de scanner 
 package ejercicio;
 import java.util.Scanner;
@@ -124,8 +125,9 @@ dolares=(pesos/4150);
 System.out.print("la cantidad en dolares es: "+dolares);
 }
 }
-
+```
 ## Tercer proyecto en Java
+```
 // Este programa permite obtener el promedio de n notas.
 package clase;
 
@@ -284,7 +286,7 @@ public class proyecto3 {
 ```
 ## Construido con
 
-Eclipse IDE for Java Script
+Eclipse IDE for Java
 
 ## Versionado
 
@@ -303,7 +305,5 @@ Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener
 
 ## Expresiones de gratitud (Acknowledgments)
 
-
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+- Nos gustaria agradecer al profesor Gustavo Willyn Sánchez Rodriguez por haber hecho posible el correcto funcionamiento de este repositorio gracias a sus enseñanzas.
+- Espero el contenido del repositorio haya sido util para resolver algunos problemas de la vida cotidiana
