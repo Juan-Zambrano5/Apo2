@@ -146,6 +146,8 @@ public class promedio {
 		double suma;
 		// definimos la variable promedio como un double.
 		double promedio;
+		// establecemos suma como array0+array1+array2.
+		suma = Array[0]+Array[1]+Array[2];
 
 	} 
 
